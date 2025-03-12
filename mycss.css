@@ -1,0 +1,35 @@
+body {
+    background-color: rgb(130, 234, 225);
+    margin-left: 200px;
+    margin-right: 200px;
+    font-family: 'inter';
+}
+p {
+    color: red;
+}
+a:link {
+    text-decoration: none;
+    color: chartreuse;
+}
+a:visited {
+    text-decoration: none;
+    color: rgb(255, 0, 187);
+}
+a:hover {
+    text-decoration: none;
+    color: rgb(0, 255, 51);
+    font-weight: bold;
+}
+
+.formatheader {
+    font-size: larger;
+}
+
+.head {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    padding: 20px;
+    background: blue;
+}

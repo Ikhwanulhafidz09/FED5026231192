@@ -1,0 +1,23 @@
+.main > div{
+    height: 150px;
+    padding: 20px;
+    color: #fff;
+    font: 34px sans-serif
+}
+
+.top{
+    background: red !important;
+}
+.content{
+    background: yellow;
+}
+.bottom{
+    background: green;
+}
+.top{
+    background: blue;
+}
+
+img{
+    filter: brightness(70%) blur(2px);
+}
