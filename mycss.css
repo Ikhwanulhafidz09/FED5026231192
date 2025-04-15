@@ -1,35 +1,38 @@
-body {
-    background-color: rgb(130, 234, 225);
-    margin-left: 200px;
-    margin-right: 200px;
-    font-family: 'inter';
-}
-p {
-    color: red;
-}
-a:link {
-    text-decoration: none;
-    color: chartreuse;
-}
-a:visited {
-    text-decoration: none;
-    color: rgb(255, 0, 187);
-}
-a:hover {
-    text-decoration: none;
-    color: rgb(0, 255, 51);
-    font-weight: bold;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Plus+Jakarta+Sans:wght@200..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
 }
 
-.formatheader {
-    font-size: larger;
+/* Sidebar */
+.avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
 }
 
-.head {
-    position: fixed;
-    top: 0%;
-    left: 0%;
-    width: 100%;
-    padding: 20px;
-    background: blue;
+/* Progress Icon */
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 18px;
+    margin: auto;
+}
+
+/* Progress Line */
+.line {
+    flex: 1;
+    height: 5px;
+    background: lightgray;
+}
+
+.line.completed {
+    background: #007bff;
 }
